@@ -98,6 +98,33 @@ nav li {
 li:hover {
 	color: #B1663C;
 }
+
+.filters {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.filter-btn {
+	padding: 10px 15px;
+	border: 1px solid #1d6154;
+	border-radius: 60px;
+	background: #fff;
+	color: #1d6154;
+	font-family: "Syne", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+	background: #1d6154;
+	color: #fff;
+}
+
 #introduction {
 	display: flex;
 	align-items: center;
